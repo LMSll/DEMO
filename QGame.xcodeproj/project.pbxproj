@@ -1,0 +1,1617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004025C919B709E600D57F43 /* MRQHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 004025C719B709E600D57F43 /* MRQHomeViewController.m */; };
+		00B0661819B7FF8200934240 /* MRQHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B0661619B7FF8200934240 /* MRQHomeTableViewCell.m */; };
+		00B7347919B7063900FCCD1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B7347819B7063900FCCD1F /* Foundation.framework */; };
+		00B7347B19B7063900FCCD1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B7347A19B7063900FCCD1F /* CoreGraphics.framework */; };
+		00B7347D19B7063900FCCD1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B7347C19B7063900FCCD1F /* UIKit.framework */; };
+		00B7348319B7063900FCCD1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00B7348119B7063900FCCD1F /* InfoPlist.strings */; };
+		00B7348B19B7063900FCCD1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B7348A19B7063900FCCD1F /* Images.xcassets */; };
+		00B7349219B7063900FCCD1F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B7349119B7063900FCCD1F /* XCTest.framework */; };
+		00B7349319B7063900FCCD1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B7347819B7063900FCCD1F /* Foundation.framework */; };
+		00B7349419B7063900FCCD1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B7347C19B7063900FCCD1F /* UIKit.framework */; };
+		00B7349C19B7063900FCCD1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00B7349A19B7063900FCCD1F /* InfoPlist.strings */; };
+		00B7349E19B7063900FCCD1F /* QGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B7349D19B7063900FCCD1F /* QGameTests.m */; };
+		00B734BA19B706FC00FCCD1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B734B519B706FC00FCCD1F /* main.m */; };
+		00D20DCB19B70DA80090C230 /* MRQClassificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D20DCA19B70DA80090C230 /* MRQClassificationViewController.m */; };
+		1802BFB61A495FD20061BA66 /* MRQFLTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1802BFB51A495FD20061BA66 /* MRQFLTableViewController.storyboard */; };
+		18077A611A2EA49A002687E1 /* MRQHomeHeaderInSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18077A601A2EA49A002687E1 /* MRQHomeHeaderInSectionView.m */; };
+		180DE4361A2C9298002BD943 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DE42E1A2C9298002BD943 /* BaseTabBarViewController.m */; };
+		180DE4371A2C9298002BD943 /* BaseBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DE4311A2C9298002BD943 /* BaseBadgeButton.m */; };
+		180DE4381A2C9298002BD943 /* BaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DE4331A2C9298002BD943 /* BaseTabBar.m */; };
+		180DE4391A2C9298002BD943 /* BaseTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 180DE4351A2C9298002BD943 /* BaseTabBarButton.m */; };
+		180E437719BF20AF00E2DFBC /* MRQClassCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E437619BF20AF00E2DFBC /* MRQClassCollectionCell.m */; };
+		180E437F19BF24B300E2DFBC /* MRQClassTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E437E19BF24B300E2DFBC /* MRQClassTool.m */; };
+		180E438219BF250000E2DFBC /* MRQClassParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 180E438119BF250000E2DFBC /* MRQClassParam.m */; };
+		18100D661A0C6367009A40FD /* TOWebViewControllerLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18100D551A0C6367009A40FD /* TOWebViewControllerLocalizable.strings */; };
+		18100D671A0C6367009A40FD /* TOActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 18100D5D1A0C6367009A40FD /* TOActivityChrome.m */; };
+		18100D681A0C6367009A40FD /* TOActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = 18100D5F1A0C6367009A40FD /* TOActivitySafari.m */; };
+		18100D691A0C6367009A40FD /* TOWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18100D611A0C6367009A40FD /* TOWebViewController.m */; };
+		18100D6A1A0C6367009A40FD /* UIImage+TOWebViewControllerIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 18100D631A0C6367009A40FD /* UIImage+TOWebViewControllerIcons.m */; };
+		181800AA1A80B4860043405D /* libPushSDK-1.8.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 181800A91A80B4860043405D /* libPushSDK-1.8.2.a */; };
+		181938F01A7CDCDC005DDF3B /* Web in Resources */ = {isa = PBXBuildFile; fileRef = 181938EF1A7CDCDC005DDF3B /* Web */; };
+		181938F31A7CDD26005DDF3B /* MRQTestWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181938F21A7CDD26005DDF3B /* MRQTestWebViewController.m */; };
+		181939901A7CDE7F005DDF3B /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1819398F1A7CDE7F005DDF3B /* libxml2.dylib */; };
+		181D1AC619C12C4100FC516D /* MRQClassCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181D1AC519C12C4100FC516D /* MRQClassCollectionCell.xib */; };
+		181D1AC919C1302100FC516D /* MRQCollectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D1AC819C1302100FC516D /* MRQCollectionHeadView.m */; };
+		1821CE0A1A43C38500F2996C /* MRQHomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1821CE091A43C38500F2996C /* MRQHomeViewController.storyboard */; };
+		1821CE0C1A43C7C400F2996C /* MRQMainGameDetailsController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1821CE0B1A43C7C400F2996C /* MRQMainGameDetailsController.storyboard */; };
+		1821CE0E1A440F7B00F2996C /* MRQHomeHeaderInSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1821CE0D1A440F7B00F2996C /* MRQHomeHeaderInSectionView.xib */; };
+		1821CE101A44127E00F2996C /* MRQAboutViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1821CE0F1A44127E00F2996C /* MRQAboutViewController.storyboard */; };
+		1828F5B919C3D33500412EB0 /* MRQHomeGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828F5B819C3D33500412EB0 /* MRQHomeGroup.m */; };
+		1828F5BF19C3D3A600412EB0 /* MRQGameListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828F5BE19C3D3A600412EB0 /* MRQGameListModel.m */; };
+		1828F5C519C3F02800412EB0 /* MRQMainHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828F5C419C3F02800412EB0 /* MRQMainHttpTool.m */; };
+		1828F5C819C3F05900412EB0 /* MRQHomeHttpParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828F5C719C3F05900412EB0 /* MRQHomeHttpParam.m */; };
+		1828F5CC19C427E200412EB0 /* MRQMainGameDetailsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828F5CB19C427E200412EB0 /* MRQMainGameDetailsModel.m */; };
+		1828F5CF19C428F300412EB0 /* MRQMainGameDetailsParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 1828F5CE19C428F300412EB0 /* MRQMainGameDetailsParam.m */; };
+		1830C02F1A2082050050676B /* SUNLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1830C02D1A2082050050676B /* SUNLeftMenuViewController.m */; };
+		183341FD1A908F4800D10AF3 /* banner_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183341FA1A908F4800D10AF3 /* banner_close@2x.png */; };
+		183341FE1A908F4800D10AF3 /* banner_shadowline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183341FB1A908F4800D10AF3 /* banner_shadowline@2x.png */; };
+		183342011A908F8F00D10AF3 /* MRQSDKBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183342001A908F8F00D10AF3 /* MRQSDKBannerView.m */; };
+		1834FFDF19C9CC880024638D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1834FFDE19C9CC880024638D /* libz.dylib */; };
+		18449E1519C8222200F5F26A /* MRQFLDescViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18449E1419C8222200F5F26A /* MRQFLDescViewController.m */; };
+		18449E1819C8231300F5F26A /* MRQFLDescHeandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18449E1719C8231300F5F26A /* MRQFLDescHeandView.m */; };
+		18449E1A19C8231B00F5F26A /* MRQFLDescHeandView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18449E1919C8231B00F5F26A /* MRQFLDescHeandView.xib */; };
+		18449E1D19C826CD00F5F26A /* MRQFLDescFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18449E1C19C826CD00F5F26A /* MRQFLDescFootView.m */; };
+		18449E1F19C826D600F5F26A /* MRQFLDescFootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18449E1E19C826D600F5F26A /* MRQFLDescFootView.xib */; };
+		1848E3D619C48CE40052BA2C /* MRQCollectionParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848E3D519C48CE40052BA2C /* MRQCollectionParam.m */; };
+		1848E3D919C48CF40052BA2C /* MRQCollectionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848E3D819C48CF40052BA2C /* MRQCollectionGroup.m */; };
+		1850C7541A3809F0009C2EE7 /* RNCachingURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850C7531A3809F0009C2EE7 /* RNCachingURLProtocol.m */; };
+		18562E4B19C69A120071FACC /* MRQFLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18562E4919C69A120071FACC /* MRQFLTableViewCell.m */; };
+		1857A3CC19F89F36009EF694 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1857A3CB19F89F36009EF694 /* AudioToolbox.framework */; };
+		1857A3CE19F89F49009EF694 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1857A3CD19F89F49009EF694 /* CoreLocation.framework */; };
+		1857A3D019F89F63009EF694 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1857A3CF19F89F63009EF694 /* StoreKit.framework */; };
+		185B183E1A2EE16A003542DD /* MRQFLDescNewsHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B183D1A2EE16A003542DD /* MRQFLDescNewsHeadView.m */; };
+		185B18401A2EE172003542DD /* MRQFLDescNewsHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185B183F1A2EE172003542DD /* MRQFLDescNewsHeadView.xib */; };
+		18640D901A22CB9200DF9E53 /* AGAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18640D8F1A22CB9200DF9E53 /* AGAuthViewController.m */; };
+		18640D931A22CBBA00DF9E53 /* AGShareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18640D921A22CBBA00DF9E53 /* AGShareCell.m */; };
+		187A85E51A202B4800551B51 /* NewfeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A85E41A202B4800551B51 /* NewfeatureViewController.m */; };
+		187A85E81A202B8E00551B51 /* MRQSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A85E71A202B8E00551B51 /* MRQSettingViewController.m */; };
+		188BFBAD1A08F63400F0FC8C /* MRQPlayedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BFBAC1A08F63400F0FC8C /* MRQPlayedViewController.m */; };
+		188BFBB11A08FB0300F0FC8C /* MRQPlayedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BFBAF1A08FB0300F0FC8C /* MRQPlayedCell.m */; };
+		188BFBB21A08FB0300F0FC8C /* MRQPlayedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188BFBB01A08FB0300F0FC8C /* MRQPlayedCell.xib */; };
+		188BFBB51A09001E00F0FC8C /* MRQPlayedCollectionHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188BFBB41A09001E00F0FC8C /* MRQPlayedCollectionHeadView.m */; };
+		1896DF8E19C2DD4900CAD551 /* MRQLeftHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1896DF8D19C2DD4900CAD551 /* MRQLeftHeaderView.m */; };
+		1896DF9019C2DD5300CAD551 /* MRQLeftHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1896DF8F19C2DD5300CAD551 /* MRQLeftHeaderView.xib */; };
+		189A8C361A15B5A00091A345 /* BaseHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 189A8C351A15B5A00091A345 /* BaseHttpTool.m */; };
+		18A05E061A2DB6F5005EEA4A /* BaseSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05DFF1A2DB6F5005EEA4A /* BaseSDK.m */; };
+		18A05E071A2DB6F5005EEA4A /* MRQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05E021A2DB6F5005EEA4A /* MRQAppDelegate.m */; };
+		18A05E081A2DB6F5005EEA4A /* MRQGlobalSimpleInterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05E041A2DB6F5005EEA4A /* MRQGlobalSimpleInterest.m */; };
+		18A05E3A1A2DB7AC005EEA4A /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05E281A2DB7AC005EEA4A /* NSString+MD5.m */; };
+		18A05E3B1A2DB7AC005EEA4A /* UIBarButtonItem+BC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05E2A1A2DB7AC005EEA4A /* UIBarButtonItem+BC.m */; };
+		18A05E3C1A2DB7AC005EEA4A /* UIImage+BC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05E2C1A2DB7AC005EEA4A /* UIImage+BC.m */; };
+		18A05E3F1A2DB7AC005EEA4A /* UINavigationController+shouldAutorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05E331A2DB7AC005EEA4A /* UINavigationController+shouldAutorotate.m */; };
+		18A05E401A2DB7AC005EEA4A /* UITabBarController+shouldAutorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05E351A2DB7AC005EEA4A /* UITabBarController+shouldAutorotate.m */; };
+		18A05E411A2DB7AC005EEA4A /* UIView+BC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05E371A2DB7AC005EEA4A /* UIView+BC.m */; };
+		18A05E421A2DB7AC005EEA4A /* UIViewController+shouldAutorotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A05E391A2DB7AC005EEA4A /* UIViewController+shouldAutorotate.m */; };
+		18A8983019C6CFD000005928 /* MRQAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A8982F19C6CFD000005928 /* MRQAboutViewController.m */; };
+		18A8986719C6EA0C00005928 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8986619C6EA0C00005928 /* QuartzCore.framework */; };
+		18A8986919C6EA1100005928 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8986819C6EA1100005928 /* CoreTelephony.framework */; };
+		18A8986B19C6EA1700005928 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8986A19C6EA1700005928 /* libicucore.dylib */; };
+		18A8986D19C6EA2200005928 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8986C19C6EA2200005928 /* Security.framework */; };
+		18A8986F19C6EA2E00005928 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8986E19C6EA2E00005928 /* libstdc++.dylib */; };
+		18A8987119C6EA3600005928 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A8987019C6EA3600005928 /* libsqlite3.dylib */; };
+		18AACEEA1A0939FA00B4C47D /* MRQGameImageIargeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AACEE91A0939FA00B4C47D /* MRQGameImageIargeModel.m */; };
+		18AD25211A31A07D00BC796D /* MRQHomeDescTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD25201A31A07D00BC796D /* MRQHomeDescTableViewCell.m */; };
+		18AD25241A31A2EE00BC796D /* MRQFLDescTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD25231A31A2EE00BC796D /* MRQFLDescTableViewCell.m */; };
+		18B040691A00E606001951C2 /* BaseSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B040681A00E606001951C2 /* BaseSegmentedControl.m */; };
+		18B0B79B19D64C2C0087E6F8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B0B79A19D64C2C0087E6F8 /* CoreFoundation.framework */; };
+		18B1E7E81A11ACF1007665EC /* MRQHomeBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B1E7E71A11ACF1007665EC /* MRQHomeBaseModel.m */; };
+		18BBE2C019CAD16D007AEAAB /* MRQFLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBE2BF19CAD16D007AEAAB /* MRQFLTableViewController.m */; };
+		18BDAA2B19F4A924006ED950 /* YTKKeyValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BDAA2A19F4A924006ED950 /* YTKKeyValueStore.m */; };
+		18BDCE7F1A274912001B2F0F /* BaseMainWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BDCE7E1A274912001B2F0F /* BaseMainWebViewController.m */; };
+		18C4DD351A821D8900E95504 /* PushConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C4DD341A821D8900E95504 /* PushConfig.plist */; };
+		18D15DC01A202C450093CA37 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D15DB21A202C450093CA37 /* BaseNavigationController.m */; };
+		18D575B119BEDF4000FE2B75 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D575B019BEDF4000FE2B75 /* CFNetwork.framework */; };
+		18D575B319BEDF4800FE2B75 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D575B219BEDF4800FE2B75 /* SystemConfiguration.framework */; };
+		18D575B519BEDF4E00FE2B75 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D575B419BEDF4E00FE2B75 /* MobileCoreServices.framework */; };
+		18D575B719BEDF6200FE2B75 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D575B619BEDF6200FE2B75 /* libz.1.2.5.dylib */; };
+		18D575BB19BEE69900FE2B75 /* MRQClassGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D575BA19BEE69900FE2B75 /* MRQClassGroup.m */; };
+		18D575BE19BEE75100FE2B75 /* MRQClassData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D575BD19BEE75100FE2B75 /* MRQClassData.m */; };
+		18DA039C19C2B40900E18096 /* MRQMainFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA039B19C2B40900E18096 /* MRQMainFooterView.m */; };
+		18DA4B7D1A80B99200ED7FB1 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA4B791A80B99200ED7FB1 /* MBProgressHUD+Add.m */; };
+		18DA4B7E1A80B99200ED7FB1 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18DA4B7A1A80B99200ED7FB1 /* MBProgressHUD.bundle */; };
+		18DA4B7F1A80B99200ED7FB1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA4B7C1A80B99200ED7FB1 /* MBProgressHUD.m */; };
+		18EA343C1A2C0B0200025FCF /* MRQSettingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EA343B1A2C0B0200025FCF /* MRQSettingViewController.storyboard */; };
+		18ECB2601A121AAC006A2584 /* QQConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ECB2441A121AAC006A2584 /* QQConnection.framework */; };
+		18ECB2611A121AAC006A2584 /* QZoneConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ECB2451A121AAC006A2584 /* QZoneConnection.framework */; };
+		18ECB2621A121AAC006A2584 /* SinaWeiboConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ECB2461A121AAC006A2584 /* SinaWeiboConnection.framework */; };
+		18ECB2631A121AAC006A2584 /* WeChatConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ECB2471A121AAC006A2584 /* WeChatConnection.framework */; };
+		18ECB2641A121AAC006A2584 /* AGCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ECB2491A121AAC006A2584 /* AGCommon.framework */; };
+		18ECB2651A121AAC006A2584 /* ShareSDKLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18ECB24A1A121AAC006A2584 /* ShareSDKLocalizable.strings */; };
+		18ECB2661A121AAC006A2584 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18ECB24C1A121AAC006A2584 /* Resource.bundle */; };
+		18ECB2671A121AAC006A2584 /* ShareSDKCoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ECB24D1A121AAC006A2584 /* ShareSDKCoreService.framework */; };
+		18ECB2681A121AAC006A2584 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ECB2511A121AAC006A2584 /* TencentOpenAPI.framework */; };
+		18ECB2691A121AAC006A2584 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18ECB2521A121AAC006A2584 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		18ECB26A1A121AAC006A2584 /* libSinaWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ECB2541A121AAC006A2584 /* libSinaWeiboSDK.a */; };
+		18ECB26B1A121AAC006A2584 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18ECB2551A121AAC006A2584 /* WeiboSDK.bundle */; };
+		18ECB26C1A121AAC006A2584 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ECB2581A121AAC006A2584 /* libWeChatSDK.a */; };
+		18ECB26D1A121AAC006A2584 /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ECB25B1A121AAC006A2584 /* ShareSDK.framework */; };
+		18ECB26E1A121AAC006A2584 /* ShareSDKFlatShareViewUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18ECB25D1A121AAC006A2584 /* ShareSDKFlatShareViewUI.bundle */; };
+		18ECB26F1A121AAC006A2584 /* ShareSDKFlatShareViewUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ECB25E1A121AAC006A2584 /* ShareSDKFlatShareViewUI.framework */; };
+		18ECB2701A121AAC006A2584 /* ShareSDKShareActionSheet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ECB25F1A121AAC006A2584 /* ShareSDKShareActionSheet.framework */; };
+		18F08CF81A42ACD000CDDF36 /* BaseSBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F08CF71A42ACD000CDDF36 /* BaseSBWebViewController.m */; };
+		18F08CFA1A42ACD800CDDF36 /* BaseSBWebViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F08CF91A42ACD800CDDF36 /* BaseSBWebViewController.storyboard */; };
+		18FB93E219C28A5C00ABDB72 /* MRQMainGameDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB93E119C28A5C00ABDB72 /* MRQMainGameDetailsController.m */; };
+		FC84229BA4D42649B8D0234A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 754BB7BDC96E5B955496CDDB /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00B7349519B7063900FCCD1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00B7346D19B7063900FCCD1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00B7347419B7063900FCCD1F;
+			remoteInfo = QGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004025C619B709E600D57F43 /* MRQHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQHomeViewController.h; sourceTree = "<group>"; };
+		004025C719B709E600D57F43 /* MRQHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQHomeViewController.m; sourceTree = "<group>"; };
+		00B0661519B7FF8200934240 /* MRQHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQHomeTableViewCell.h; sourceTree = "<group>"; };
+		00B0661619B7FF8200934240 /* MRQHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQHomeTableViewCell.m; sourceTree = "<group>"; };
+		00B7347519B7063900FCCD1F /* QGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B7347819B7063900FCCD1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00B7347A19B7063900FCCD1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00B7347C19B7063900FCCD1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00B7348219B7063900FCCD1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00B7348A19B7063900FCCD1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00B7349019B7063900FCCD1F /* QGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B7349119B7063900FCCD1F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		00B7349919B7063900FCCD1F /* QGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QGameTests-Info.plist"; sourceTree = "<group>"; };
+		00B7349B19B7063900FCCD1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00B7349D19B7063900FCCD1F /* QGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGameTests.m; sourceTree = "<group>"; };
+		00B734B519B706FC00FCCD1F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00B734B819B706FC00FCCD1F /* QGame-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "QGame-Info.plist"; sourceTree = "<group>"; };
+		00D20DC919B70DA80090C230 /* MRQClassificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQClassificationViewController.h; sourceTree = "<group>"; };
+		00D20DCA19B70DA80090C230 /* MRQClassificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQClassificationViewController.m; sourceTree = "<group>"; };
+		1802BFB51A495FD20061BA66 /* MRQFLTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MRQFLTableViewController.storyboard; sourceTree = "<group>"; };
+		18077A5F1A2EA49A002687E1 /* MRQHomeHeaderInSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQHomeHeaderInSectionView.h; sourceTree = "<group>"; };
+		18077A601A2EA49A002687E1 /* MRQHomeHeaderInSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQHomeHeaderInSectionView.m; sourceTree = "<group>"; };
+		180DE42D1A2C9298002BD943 /* BaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
+		180DE42E1A2C9298002BD943 /* BaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
+		180DE4301A2C9298002BD943 /* BaseBadgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBadgeButton.h; sourceTree = "<group>"; };
+		180DE4311A2C9298002BD943 /* BaseBadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseBadgeButton.m; sourceTree = "<group>"; };
+		180DE4321A2C9298002BD943 /* BaseTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBar.h; sourceTree = "<group>"; };
+		180DE4331A2C9298002BD943 /* BaseTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBar.m; sourceTree = "<group>"; };
+		180DE4341A2C9298002BD943 /* BaseTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarButton.h; sourceTree = "<group>"; };
+		180DE4351A2C9298002BD943 /* BaseTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarButton.m; sourceTree = "<group>"; };
+		180E437519BF20AF00E2DFBC /* MRQClassCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQClassCollectionCell.h; sourceTree = "<group>"; };
+		180E437619BF20AF00E2DFBC /* MRQClassCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQClassCollectionCell.m; sourceTree = "<group>"; };
+		180E437D19BF24B300E2DFBC /* MRQClassTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQClassTool.h; sourceTree = "<group>"; };
+		180E437E19BF24B300E2DFBC /* MRQClassTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQClassTool.m; sourceTree = "<group>"; };
+		180E438019BF250000E2DFBC /* MRQClassParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQClassParam.h; sourceTree = "<group>"; };
+		180E438119BF250000E2DFBC /* MRQClassParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQClassParam.m; sourceTree = "<group>"; };
+		18100D561A0C6367009A40FD /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		18100D571A0C6367009A40FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		18100D581A0C6367009A40FD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		18100D591A0C6367009A40FD /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		18100D5A1A0C6367009A40FD /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		18100D5B1A0C6367009A40FD /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		18100D5C1A0C6367009A40FD /* TOActivityChrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivityChrome.h; sourceTree = "<group>"; };
+		18100D5D1A0C6367009A40FD /* TOActivityChrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivityChrome.m; sourceTree = "<group>"; };
+		18100D5E1A0C6367009A40FD /* TOActivitySafari.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivitySafari.h; sourceTree = "<group>"; };
+		18100D5F1A0C6367009A40FD /* TOActivitySafari.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivitySafari.m; sourceTree = "<group>"; };
+		18100D601A0C6367009A40FD /* TOWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOWebViewController.h; sourceTree = "<group>"; };
+		18100D611A0C6367009A40FD /* TOWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOWebViewController.m; sourceTree = "<group>"; };
+		18100D621A0C6367009A40FD /* UIImage+TOWebViewControllerIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TOWebViewControllerIcons.h"; sourceTree = "<group>"; };
+		18100D631A0C6367009A40FD /* UIImage+TOWebViewControllerIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TOWebViewControllerIcons.m"; sourceTree = "<group>"; };
+		18100D641A0C6367009A40FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/TOWebViewControllerLocalizable.strings"; sourceTree = "<group>"; };
+		18100D651A0C6367009A40FD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/TOWebViewControllerLocalizable.strings"; sourceTree = "<group>"; };
+		181800A91A80B4860043405D /* libPushSDK-1.8.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPushSDK-1.8.2.a"; path = "Pods/JPushSDK/libPushSDK-1.8.2.a"; sourceTree = "<group>"; };
+		181938EF1A7CDCDC005DDF3B /* Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Web; sourceTree = "<group>"; };
+		181938F11A7CDD26005DDF3B /* MRQTestWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQTestWebViewController.h; sourceTree = "<group>"; };
+		181938F21A7CDD26005DDF3B /* MRQTestWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQTestWebViewController.m; sourceTree = "<group>"; };
+		1819398F1A7CDE7F005DDF3B /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		181D1AC519C12C4100FC516D /* MRQClassCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRQClassCollectionCell.xib; sourceTree = "<group>"; };
+		181D1AC719C1302100FC516D /* MRQCollectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQCollectionHeadView.h; sourceTree = "<group>"; };
+		181D1AC819C1302100FC516D /* MRQCollectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQCollectionHeadView.m; sourceTree = "<group>"; };
+		1821CE091A43C38500F2996C /* MRQHomeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MRQHomeViewController.storyboard; sourceTree = "<group>"; };
+		1821CE0B1A43C7C400F2996C /* MRQMainGameDetailsController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MRQMainGameDetailsController.storyboard; sourceTree = "<group>"; };
+		1821CE0D1A440F7B00F2996C /* MRQHomeHeaderInSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRQHomeHeaderInSectionView.xib; sourceTree = "<group>"; };
+		1821CE0F1A44127E00F2996C /* MRQAboutViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MRQAboutViewController.storyboard; sourceTree = "<group>"; };
+		1828F5B719C3D33500412EB0 /* MRQHomeGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQHomeGroup.h; sourceTree = "<group>"; };
+		1828F5B819C3D33500412EB0 /* MRQHomeGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQHomeGroup.m; sourceTree = "<group>"; };
+		1828F5BD19C3D3A600412EB0 /* MRQGameListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQGameListModel.h; sourceTree = "<group>"; };
+		1828F5BE19C3D3A600412EB0 /* MRQGameListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQGameListModel.m; sourceTree = "<group>"; };
+		1828F5C319C3F02800412EB0 /* MRQMainHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQMainHttpTool.h; sourceTree = "<group>"; };
+		1828F5C419C3F02800412EB0 /* MRQMainHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQMainHttpTool.m; sourceTree = "<group>"; };
+		1828F5C619C3F05900412EB0 /* MRQHomeHttpParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQHomeHttpParam.h; sourceTree = "<group>"; };
+		1828F5C719C3F05900412EB0 /* MRQHomeHttpParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQHomeHttpParam.m; sourceTree = "<group>"; };
+		1828F5CA19C427E200412EB0 /* MRQMainGameDetailsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQMainGameDetailsModel.h; sourceTree = "<group>"; };
+		1828F5CB19C427E200412EB0 /* MRQMainGameDetailsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQMainGameDetailsModel.m; sourceTree = "<group>"; };
+		1828F5CD19C428F300412EB0 /* MRQMainGameDetailsParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQMainGameDetailsParam.h; sourceTree = "<group>"; };
+		1828F5CE19C428F300412EB0 /* MRQMainGameDetailsParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQMainGameDetailsParam.m; sourceTree = "<group>"; };
+		1830C02C1A2082050050676B /* SUNLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUNLeftMenuViewController.h; sourceTree = "<group>"; };
+		1830C02D1A2082050050676B /* SUNLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUNLeftMenuViewController.m; sourceTree = "<group>"; };
+		183341FA1A908F4800D10AF3 /* banner_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner_close@2x.png"; sourceTree = "<group>"; };
+		183341FB1A908F4800D10AF3 /* banner_shadowline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner_shadowline@2x.png"; sourceTree = "<group>"; };
+		183341FF1A908F8F00D10AF3 /* MRQSDKBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQSDKBannerView.h; sourceTree = "<group>"; };
+		183342001A908F8F00D10AF3 /* MRQSDKBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQSDKBannerView.m; sourceTree = "<group>"; };
+		1834FFDE19C9CC880024638D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		18449E1319C8222200F5F26A /* MRQFLDescViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQFLDescViewController.h; sourceTree = "<group>"; };
+		18449E1419C8222200F5F26A /* MRQFLDescViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQFLDescViewController.m; sourceTree = "<group>"; };
+		18449E1619C8231300F5F26A /* MRQFLDescHeandView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQFLDescHeandView.h; sourceTree = "<group>"; };
+		18449E1719C8231300F5F26A /* MRQFLDescHeandView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQFLDescHeandView.m; sourceTree = "<group>"; };
+		18449E1919C8231B00F5F26A /* MRQFLDescHeandView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRQFLDescHeandView.xib; sourceTree = "<group>"; };
+		18449E1B19C826CD00F5F26A /* MRQFLDescFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQFLDescFootView.h; sourceTree = "<group>"; };
+		18449E1C19C826CD00F5F26A /* MRQFLDescFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQFLDescFootView.m; sourceTree = "<group>"; };
+		18449E1E19C826D600F5F26A /* MRQFLDescFootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRQFLDescFootView.xib; sourceTree = "<group>"; };
+		1848E3D419C48CE40052BA2C /* MRQCollectionParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQCollectionParam.h; sourceTree = "<group>"; };
+		1848E3D519C48CE40052BA2C /* MRQCollectionParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQCollectionParam.m; sourceTree = "<group>"; };
+		1848E3D719C48CF40052BA2C /* MRQCollectionGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQCollectionGroup.h; sourceTree = "<group>"; };
+		1848E3D819C48CF40052BA2C /* MRQCollectionGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQCollectionGroup.m; sourceTree = "<group>"; };
+		1850C7521A3809F0009C2EE7 /* RNCachingURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCachingURLProtocol.h; sourceTree = "<group>"; };
+		1850C7531A3809F0009C2EE7 /* RNCachingURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCachingURLProtocol.m; sourceTree = "<group>"; };
+		18562E4819C69A120071FACC /* MRQFLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQFLTableViewCell.h; sourceTree = "<group>"; };
+		18562E4919C69A120071FACC /* MRQFLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQFLTableViewCell.m; sourceTree = "<group>"; };
+		1857A3CB19F89F36009EF694 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1857A3CD19F89F49009EF694 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1857A3CF19F89F63009EF694 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		185B183C1A2EE16A003542DD /* MRQFLDescNewsHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQFLDescNewsHeadView.h; sourceTree = "<group>"; };
+		185B183D1A2EE16A003542DD /* MRQFLDescNewsHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQFLDescNewsHeadView.m; sourceTree = "<group>"; };
+		185B183F1A2EE172003542DD /* MRQFLDescNewsHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRQFLDescNewsHeadView.xib; sourceTree = "<group>"; };
+		18640D8E1A22CB9200DF9E53 /* AGAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGAuthViewController.h; sourceTree = "<group>"; };
+		18640D8F1A22CB9200DF9E53 /* AGAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGAuthViewController.m; sourceTree = "<group>"; };
+		18640D911A22CBBA00DF9E53 /* AGShareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGShareCell.h; sourceTree = "<group>"; };
+		18640D921A22CBBA00DF9E53 /* AGShareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGShareCell.m; sourceTree = "<group>"; };
+		187A85E31A202B4800551B51 /* NewfeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewfeatureViewController.h; sourceTree = "<group>"; };
+		187A85E41A202B4800551B51 /* NewfeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewfeatureViewController.m; sourceTree = "<group>"; };
+		187A85E61A202B8E00551B51 /* MRQSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQSettingViewController.h; sourceTree = "<group>"; };
+		187A85E71A202B8E00551B51 /* MRQSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQSettingViewController.m; sourceTree = "<group>"; };
+		188BFBAB1A08F63400F0FC8C /* MRQPlayedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQPlayedViewController.h; sourceTree = "<group>"; };
+		188BFBAC1A08F63400F0FC8C /* MRQPlayedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQPlayedViewController.m; sourceTree = "<group>"; };
+		188BFBAE1A08FB0300F0FC8C /* MRQPlayedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQPlayedCell.h; sourceTree = "<group>"; };
+		188BFBAF1A08FB0300F0FC8C /* MRQPlayedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQPlayedCell.m; sourceTree = "<group>"; };
+		188BFBB01A08FB0300F0FC8C /* MRQPlayedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRQPlayedCell.xib; sourceTree = "<group>"; };
+		188BFBB31A09001E00F0FC8C /* MRQPlayedCollectionHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQPlayedCollectionHeadView.h; sourceTree = "<group>"; };
+		188BFBB41A09001E00F0FC8C /* MRQPlayedCollectionHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQPlayedCollectionHeadView.m; sourceTree = "<group>"; };
+		1896DF8C19C2DD4900CAD551 /* MRQLeftHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQLeftHeaderView.h; sourceTree = "<group>"; };
+		1896DF8D19C2DD4900CAD551 /* MRQLeftHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQLeftHeaderView.m; sourceTree = "<group>"; };
+		1896DF8F19C2DD5300CAD551 /* MRQLeftHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRQLeftHeaderView.xib; sourceTree = "<group>"; };
+		189A8C341A15B5A00091A345 /* BaseHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHttpTool.h; sourceTree = "<group>"; };
+		189A8C351A15B5A00091A345 /* BaseHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHttpTool.m; sourceTree = "<group>"; };
+		18A05DFE1A2DB6F5005EEA4A /* BaseSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSDK.h; sourceTree = "<group>"; };
+		18A05DFF1A2DB6F5005EEA4A /* BaseSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSDK.m; sourceTree = "<group>"; };
+		18A05E001A2DB6F5005EEA4A /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		18A05E011A2DB6F5005EEA4A /* MRQAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQAppDelegate.h; sourceTree = "<group>"; };
+		18A05E021A2DB6F5005EEA4A /* MRQAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQAppDelegate.m; sourceTree = "<group>"; };
+		18A05E031A2DB6F5005EEA4A /* MRQGlobalSimpleInterest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQGlobalSimpleInterest.h; sourceTree = "<group>"; };
+		18A05E041A2DB6F5005EEA4A /* MRQGlobalSimpleInterest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQGlobalSimpleInterest.m; sourceTree = "<group>"; };
+		18A05E051A2DB6F5005EEA4A /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		18A05E271A2DB7AC005EEA4A /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		18A05E281A2DB7AC005EEA4A /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		18A05E291A2DB7AC005EEA4A /* UIBarButtonItem+BC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BC.h"; sourceTree = "<group>"; };
+		18A05E2A1A2DB7AC005EEA4A /* UIBarButtonItem+BC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BC.m"; sourceTree = "<group>"; };
+		18A05E2B1A2DB7AC005EEA4A /* UIImage+BC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BC.h"; sourceTree = "<group>"; };
+		18A05E2C1A2DB7AC005EEA4A /* UIImage+BC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BC.m"; sourceTree = "<group>"; };
+		18A05E321A2DB7AC005EEA4A /* UINavigationController+shouldAutorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+shouldAutorotate.h"; sourceTree = "<group>"; };
+		18A05E331A2DB7AC005EEA4A /* UINavigationController+shouldAutorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+shouldAutorotate.m"; sourceTree = "<group>"; };
+		18A05E341A2DB7AC005EEA4A /* UITabBarController+shouldAutorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+shouldAutorotate.h"; sourceTree = "<group>"; };
+		18A05E351A2DB7AC005EEA4A /* UITabBarController+shouldAutorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+shouldAutorotate.m"; sourceTree = "<group>"; };
+		18A05E361A2DB7AC005EEA4A /* UIView+BC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BC.h"; sourceTree = "<group>"; };
+		18A05E371A2DB7AC005EEA4A /* UIView+BC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BC.m"; sourceTree = "<group>"; };
+		18A05E381A2DB7AC005EEA4A /* UIViewController+shouldAutorotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+shouldAutorotate.h"; sourceTree = "<group>"; };
+		18A05E391A2DB7AC005EEA4A /* UIViewController+shouldAutorotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+shouldAutorotate.m"; sourceTree = "<group>"; };
+		18A2A08219C281A400B38716 /* QGame-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QGame-Prefix.pch"; sourceTree = "<group>"; };
+		18A8982E19C6CFD000005928 /* MRQAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQAboutViewController.h; sourceTree = "<group>"; };
+		18A8982F19C6CFD000005928 /* MRQAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQAboutViewController.m; sourceTree = "<group>"; };
+		18A8986619C6EA0C00005928 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18A8986819C6EA1100005928 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		18A8986A19C6EA1700005928 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		18A8986C19C6EA2200005928 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		18A8986E19C6EA2E00005928 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		18A8987019C6EA3600005928 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		18AACEE81A0939FA00B4C47D /* MRQGameImageIargeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQGameImageIargeModel.h; sourceTree = "<group>"; };
+		18AACEE91A0939FA00B4C47D /* MRQGameImageIargeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQGameImageIargeModel.m; sourceTree = "<group>"; };
+		18AD251F1A31A07D00BC796D /* MRQHomeDescTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQHomeDescTableViewCell.h; sourceTree = "<group>"; };
+		18AD25201A31A07D00BC796D /* MRQHomeDescTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQHomeDescTableViewCell.m; sourceTree = "<group>"; };
+		18AD25221A31A2EE00BC796D /* MRQFLDescTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQFLDescTableViewCell.h; sourceTree = "<group>"; };
+		18AD25231A31A2EE00BC796D /* MRQFLDescTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQFLDescTableViewCell.m; sourceTree = "<group>"; };
+		18B040671A00E606001951C2 /* BaseSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSegmentedControl.h; sourceTree = "<group>"; };
+		18B040681A00E606001951C2 /* BaseSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSegmentedControl.m; sourceTree = "<group>"; };
+		18B0B79A19D64C2C0087E6F8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		18B1E7E61A11ACF1007665EC /* MRQHomeBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQHomeBaseModel.h; sourceTree = "<group>"; };
+		18B1E7E71A11ACF1007665EC /* MRQHomeBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQHomeBaseModel.m; sourceTree = "<group>"; };
+		18BBE2BE19CAD16D007AEAAB /* MRQFLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQFLTableViewController.h; sourceTree = "<group>"; };
+		18BBE2BF19CAD16D007AEAAB /* MRQFLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQFLTableViewController.m; sourceTree = "<group>"; };
+		18BDAA2919F4A924006ED950 /* YTKKeyValueStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKKeyValueStore.h; sourceTree = "<group>"; };
+		18BDAA2A19F4A924006ED950 /* YTKKeyValueStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKKeyValueStore.m; sourceTree = "<group>"; };
+		18BDCE7D1A274912001B2F0F /* BaseMainWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMainWebViewController.h; sourceTree = "<group>"; };
+		18BDCE7E1A274912001B2F0F /* BaseMainWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMainWebViewController.m; sourceTree = "<group>"; };
+		18C4DD341A821D8900E95504 /* PushConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PushConfig.plist; sourceTree = "<group>"; };
+		18D15DB11A202C450093CA37 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		18D15DB21A202C450093CA37 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		18D575B019BEDF4000FE2B75 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18D575B219BEDF4800FE2B75 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18D575B419BEDF4E00FE2B75 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		18D575B619BEDF6200FE2B75 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		18D575B919BEE69900FE2B75 /* MRQClassGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQClassGroup.h; sourceTree = "<group>"; };
+		18D575BA19BEE69900FE2B75 /* MRQClassGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQClassGroup.m; sourceTree = "<group>"; };
+		18D575BC19BEE75100FE2B75 /* MRQClassData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQClassData.h; sourceTree = "<group>"; };
+		18D575BD19BEE75100FE2B75 /* MRQClassData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQClassData.m; sourceTree = "<group>"; };
+		18DA039A19C2B40900E18096 /* MRQMainFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQMainFooterView.h; sourceTree = "<group>"; };
+		18DA039B19C2B40900E18096 /* MRQMainFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQMainFooterView.m; sourceTree = "<group>"; };
+		18DA4B781A80B99200ED7FB1 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		18DA4B791A80B99200ED7FB1 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		18DA4B7A1A80B99200ED7FB1 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		18DA4B7B1A80B99200ED7FB1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		18DA4B7C1A80B99200ED7FB1 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		18EA343B1A2C0B0200025FCF /* MRQSettingViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MRQSettingViewController.storyboard; sourceTree = "<group>"; };
+		18ECB2441A121AAC006A2584 /* QQConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QQConnection.framework; sourceTree = "<group>"; };
+		18ECB2451A121AAC006A2584 /* QZoneConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QZoneConnection.framework; sourceTree = "<group>"; };
+		18ECB2461A121AAC006A2584 /* SinaWeiboConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SinaWeiboConnection.framework; sourceTree = "<group>"; };
+		18ECB2471A121AAC006A2584 /* WeChatConnection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WeChatConnection.framework; sourceTree = "<group>"; };
+		18ECB2491A121AAC006A2584 /* AGCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AGCommon.framework; sourceTree = "<group>"; };
+		18ECB24B1A121AAC006A2584 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ShareSDKLocalizable.strings; sourceTree = "<group>"; };
+		18ECB24C1A121AAC006A2584 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+		18ECB24D1A121AAC006A2584 /* ShareSDKCoreService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKCoreService.framework; sourceTree = "<group>"; };
+		18ECB24E1A121AAC006A2584 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/ShareSDKLocalizable.strings"; sourceTree = "<group>"; };
+		18ECB2511A121AAC006A2584 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		18ECB2521A121AAC006A2584 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		18ECB2541A121AAC006A2584 /* libSinaWeiboSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSinaWeiboSDK.a; sourceTree = "<group>"; };
+		18ECB2551A121AAC006A2584 /* WeiboSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeiboSDK.bundle; sourceTree = "<group>"; };
+		18ECB2561A121AAC006A2584 /* WeiboSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboSDK.h; sourceTree = "<group>"; };
+		18ECB2581A121AAC006A2584 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		18ECB2591A121AAC006A2584 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		18ECB25A1A121AAC006A2584 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		18ECB25B1A121AAC006A2584 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
+		18ECB25D1A121AAC006A2584 /* ShareSDKFlatShareViewUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKFlatShareViewUI.bundle; sourceTree = "<group>"; };
+		18ECB25E1A121AAC006A2584 /* ShareSDKFlatShareViewUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKFlatShareViewUI.framework; sourceTree = "<group>"; };
+		18ECB25F1A121AAC006A2584 /* ShareSDKShareActionSheet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKShareActionSheet.framework; sourceTree = "<group>"; };
+		18F08CF61A42ACD000CDDF36 /* BaseSBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSBWebViewController.h; sourceTree = "<group>"; };
+		18F08CF71A42ACD000CDDF36 /* BaseSBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSBWebViewController.m; sourceTree = "<group>"; };
+		18F08CF91A42ACD800CDDF36 /* BaseSBWebViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BaseSBWebViewController.storyboard; sourceTree = "<group>"; };
+		18FB93E019C28A5C00ABDB72 /* MRQMainGameDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRQMainGameDetailsController.h; sourceTree = "<group>"; };
+		18FB93E119C28A5C00ABDB72 /* MRQMainGameDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRQMainGameDetailsController.m; sourceTree = "<group>"; };
+		49F908368A069CF7FE93149C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		754BB7BDC96E5B955496CDDB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD444280E5344F37C7D0F448 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00B7347219B7063900FCCD1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181800AA1A80B4860043405D /* libPushSDK-1.8.2.a in Frameworks */,
+				181939901A7CDE7F005DDF3B /* libxml2.dylib in Frameworks */,
+				18D575B319BEDF4800FE2B75 /* SystemConfiguration.framework in Frameworks */,
+				1857A3D019F89F63009EF694 /* StoreKit.framework in Frameworks */,
+				18ECB2681A121AAC006A2584 /* TencentOpenAPI.framework in Frameworks */,
+				18ECB26D1A121AAC006A2584 /* ShareSDK.framework in Frameworks */,
+				18ECB2611A121AAC006A2584 /* QZoneConnection.framework in Frameworks */,
+				18ECB2641A121AAC006A2584 /* AGCommon.framework in Frameworks */,
+				18A8986D19C6EA2200005928 /* Security.framework in Frameworks */,
+				18A8986719C6EA0C00005928 /* QuartzCore.framework in Frameworks */,
+				18D575B519BEDF4E00FE2B75 /* MobileCoreServices.framework in Frameworks */,
+				1834FFDF19C9CC880024638D /* libz.dylib in Frameworks */,
+				18ECB2671A121AAC006A2584 /* ShareSDKCoreService.framework in Frameworks */,
+				1857A3CE19F89F49009EF694 /* CoreLocation.framework in Frameworks */,
+				18ECB26F1A121AAC006A2584 /* ShareSDKFlatShareViewUI.framework in Frameworks */,
+				00B7347B19B7063900FCCD1F /* CoreGraphics.framework in Frameworks */,
+				18D575B119BEDF4000FE2B75 /* CFNetwork.framework in Frameworks */,
+				18ECB2701A121AAC006A2584 /* ShareSDKShareActionSheet.framework in Frameworks */,
+				1857A3CC19F89F36009EF694 /* AudioToolbox.framework in Frameworks */,
+				18ECB2601A121AAC006A2584 /* QQConnection.framework in Frameworks */,
+				18A8987119C6EA3600005928 /* libsqlite3.dylib in Frameworks */,
+				18ECB2621A121AAC006A2584 /* SinaWeiboConnection.framework in Frameworks */,
+				18ECB26C1A121AAC006A2584 /* libWeChatSDK.a in Frameworks */,
+				18A8986919C6EA1100005928 /* CoreTelephony.framework in Frameworks */,
+				18B0B79B19D64C2C0087E6F8 /* CoreFoundation.framework in Frameworks */,
+				18ECB2631A121AAC006A2584 /* WeChatConnection.framework in Frameworks */,
+				18ECB26A1A121AAC006A2584 /* libSinaWeiboSDK.a in Frameworks */,
+				18A8986F19C6EA2E00005928 /* libstdc++.dylib in Frameworks */,
+				18D575B719BEDF6200FE2B75 /* libz.1.2.5.dylib in Frameworks */,
+				18A8986B19C6EA1700005928 /* libicucore.dylib in Frameworks */,
+				00B7347D19B7063900FCCD1F /* UIKit.framework in Frameworks */,
+				00B7347919B7063900FCCD1F /* Foundation.framework in Frameworks */,
+				FC84229BA4D42649B8D0234A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B7348D19B7063900FCCD1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B7349219B7063900FCCD1F /* XCTest.framework in Frameworks */,
+				00B7349419B7063900FCCD1F /* UIKit.framework in Frameworks */,
+				00B7349319B7063900FCCD1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B7346C19B7063900FCCD1F = {
+			isa = PBXGroup;
+			children = (
+				00B7347E19B7063900FCCD1F /* QGame */,
+				00B7349719B7063900FCCD1F /* QGameTests */,
+				00B7347719B7063900FCCD1F /* Frameworks */,
+				00B7347619B7063900FCCD1F /* Products */,
+				7D144E5D35ADB35F70F337F7 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		00B7347619B7063900FCCD1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00B7347519B7063900FCCD1F /* QGame.app */,
+				00B7349019B7063900FCCD1F /* QGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00B7347719B7063900FCCD1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				181800A91A80B4860043405D /* libPushSDK-1.8.2.a */,
+				1819398F1A7CDE7F005DDF3B /* libxml2.dylib */,
+				1857A3CF19F89F63009EF694 /* StoreKit.framework */,
+				1857A3CD19F89F49009EF694 /* CoreLocation.framework */,
+				1857A3CB19F89F36009EF694 /* AudioToolbox.framework */,
+				18B0B79A19D64C2C0087E6F8 /* CoreFoundation.framework */,
+				1834FFDE19C9CC880024638D /* libz.dylib */,
+				18A8987019C6EA3600005928 /* libsqlite3.dylib */,
+				18A8986E19C6EA2E00005928 /* libstdc++.dylib */,
+				18A8986C19C6EA2200005928 /* Security.framework */,
+				18A8986A19C6EA1700005928 /* libicucore.dylib */,
+				18A8986819C6EA1100005928 /* CoreTelephony.framework */,
+				18A8986619C6EA0C00005928 /* QuartzCore.framework */,
+				18D575B619BEDF6200FE2B75 /* libz.1.2.5.dylib */,
+				18D575B419BEDF4E00FE2B75 /* MobileCoreServices.framework */,
+				18D575B219BEDF4800FE2B75 /* SystemConfiguration.framework */,
+				18D575B019BEDF4000FE2B75 /* CFNetwork.framework */,
+				00B7347819B7063900FCCD1F /* Foundation.framework */,
+				00B7347A19B7063900FCCD1F /* CoreGraphics.framework */,
+				00B7347C19B7063900FCCD1F /* UIKit.framework */,
+				00B7349119B7063900FCCD1F /* XCTest.framework */,
+				754BB7BDC96E5B955496CDDB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00B7347E19B7063900FCCD1F /* QGame */ = {
+			isa = PBXGroup;
+			children = (
+				00B734A719B706FB00FCCD1F /* Classes */,
+				00B7347F19B7063900FCCD1F /* Supporting Files */,
+			);
+			path = QGame;
+			sourceTree = "<group>";
+		};
+		00B7347F19B7063900FCCD1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00B7348A19B7063900FCCD1F /* Images.xcassets */,
+				00B7348119B7063900FCCD1F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00B7349719B7063900FCCD1F /* QGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				00B7349D19B7063900FCCD1F /* QGameTests.m */,
+				00B7349819B7063900FCCD1F /* Supporting Files */,
+			);
+			path = QGameTests;
+			sourceTree = "<group>";
+		};
+		00B7349819B7063900FCCD1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00B7349919B7063900FCCD1F /* QGameTests-Info.plist */,
+				00B7349A19B7063900FCCD1F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00B734A719B706FB00FCCD1F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18348CBD19CC11EC004C8862 /* NewfeatureViewController */,
+				1888CEBE1A07143100CA1FEC /* Played */,
+				18E8714A1A047B6200A6B8D3 /* Setting */,
+				00B734A819B706FB00FCCD1F /* Classification */,
+				00B734AB19B706FB00FCCD1F /* Collection */,
+				00B734AE19B706FB00FCCD1F /* Home */,
+				00B734B119B706FC00FCCD1F /* Main */,
+				00B734B419B706FC00FCCD1F /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		00B734A819B706FB00FCCD1F /* Classification */ = {
+			isa = PBXGroup;
+			children = (
+				180E437B19BF248A00E2DFBC /* Tool */,
+				18D575B819BEE64A00FE2B75 /* Model */,
+				00B734A919B706FB00FCCD1F /* Controller */,
+				00B734AA19B706FB00FCCD1F /* View */,
+			);
+			path = Classification;
+			sourceTree = "<group>";
+		};
+		00B734A919B706FB00FCCD1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00D20DC919B70DA80090C230 /* MRQClassificationViewController.h */,
+				00D20DCA19B70DA80090C230 /* MRQClassificationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		00B734AA19B706FB00FCCD1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				180E437519BF20AF00E2DFBC /* MRQClassCollectionCell.h */,
+				180E437619BF20AF00E2DFBC /* MRQClassCollectionCell.m */,
+				181D1AC519C12C4100FC516D /* MRQClassCollectionCell.xib */,
+				181D1AC719C1302100FC516D /* MRQCollectionHeadView.h */,
+				181D1AC819C1302100FC516D /* MRQCollectionHeadView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00B734AB19B706FB00FCCD1F /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				00B734AC19B706FB00FCCD1F /* Controller */,
+				00B734AD19B706FB00FCCD1F /* View */,
+				1848E3D319C48CC80052BA2C /* Model */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		00B734AC19B706FB00FCCD1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18BBE2BE19CAD16D007AEAAB /* MRQFLTableViewController.h */,
+				18BBE2BF19CAD16D007AEAAB /* MRQFLTableViewController.m */,
+				1802BFB51A495FD20061BA66 /* MRQFLTableViewController.storyboard */,
+				18449E1319C8222200F5F26A /* MRQFLDescViewController.h */,
+				18449E1419C8222200F5F26A /* MRQFLDescViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		00B734AD19B706FB00FCCD1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18562E4819C69A120071FACC /* MRQFLTableViewCell.h */,
+				18562E4919C69A120071FACC /* MRQFLTableViewCell.m */,
+				18AD25221A31A2EE00BC796D /* MRQFLDescTableViewCell.h */,
+				18AD25231A31A2EE00BC796D /* MRQFLDescTableViewCell.m */,
+				18449E1619C8231300F5F26A /* MRQFLDescHeandView.h */,
+				18449E1719C8231300F5F26A /* MRQFLDescHeandView.m */,
+				18449E1919C8231B00F5F26A /* MRQFLDescHeandView.xib */,
+				18449E1B19C826CD00F5F26A /* MRQFLDescFootView.h */,
+				18449E1C19C826CD00F5F26A /* MRQFLDescFootView.m */,
+				18449E1E19C826D600F5F26A /* MRQFLDescFootView.xib */,
+				185B183C1A2EE16A003542DD /* MRQFLDescNewsHeadView.h */,
+				185B183D1A2EE16A003542DD /* MRQFLDescNewsHeadView.m */,
+				185B183F1A2EE172003542DD /* MRQFLDescNewsHeadView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00B734AE19B706FB00FCCD1F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1896DF9219C2EC3000CAD551 /* Tool */,
+				00B734AF19B706FC00FCCD1F /* Controller */,
+				00B734B019B706FC00FCCD1F /* View */,
+				1896DF9119C2EC0100CAD551 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		00B734AF19B706FC00FCCD1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				004025C619B709E600D57F43 /* MRQHomeViewController.h */,
+				004025C719B709E600D57F43 /* MRQHomeViewController.m */,
+				1821CE091A43C38500F2996C /* MRQHomeViewController.storyboard */,
+				18FB93E019C28A5C00ABDB72 /* MRQMainGameDetailsController.h */,
+				18FB93E119C28A5C00ABDB72 /* MRQMainGameDetailsController.m */,
+				1821CE0B1A43C7C400F2996C /* MRQMainGameDetailsController.storyboard */,
+				1830C02C1A2082050050676B /* SUNLeftMenuViewController.h */,
+				1830C02D1A2082050050676B /* SUNLeftMenuViewController.m */,
+				18640D8E1A22CB9200DF9E53 /* AGAuthViewController.h */,
+				18640D8F1A22CB9200DF9E53 /* AGAuthViewController.m */,
+				18A8982E19C6CFD000005928 /* MRQAboutViewController.h */,
+				18A8982F19C6CFD000005928 /* MRQAboutViewController.m */,
+				1821CE0F1A44127E00F2996C /* MRQAboutViewController.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		00B734B019B706FC00FCCD1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18640D911A22CBBA00DF9E53 /* AGShareCell.h */,
+				18640D921A22CBBA00DF9E53 /* AGShareCell.m */,
+				00B0661519B7FF8200934240 /* MRQHomeTableViewCell.h */,
+				00B0661619B7FF8200934240 /* MRQHomeTableViewCell.m */,
+				18AD251F1A31A07D00BC796D /* MRQHomeDescTableViewCell.h */,
+				18AD25201A31A07D00BC796D /* MRQHomeDescTableViewCell.m */,
+				18DA039A19C2B40900E18096 /* MRQMainFooterView.h */,
+				18DA039B19C2B40900E18096 /* MRQMainFooterView.m */,
+				1896DF8C19C2DD4900CAD551 /* MRQLeftHeaderView.h */,
+				1896DF8D19C2DD4900CAD551 /* MRQLeftHeaderView.m */,
+				1896DF8F19C2DD5300CAD551 /* MRQLeftHeaderView.xib */,
+				18077A5F1A2EA49A002687E1 /* MRQHomeHeaderInSectionView.h */,
+				18077A601A2EA49A002687E1 /* MRQHomeHeaderInSectionView.m */,
+				1821CE0D1A440F7B00F2996C /* MRQHomeHeaderInSectionView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00B734B119B706FC00FCCD1F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18D15DB11A202C450093CA37 /* BaseNavigationController.h */,
+				18D15DB21A202C450093CA37 /* BaseNavigationController.m */,
+				18BDCE7D1A274912001B2F0F /* BaseMainWebViewController.h */,
+				18BDCE7E1A274912001B2F0F /* BaseMainWebViewController.m */,
+				18F08CF61A42ACD000CDDF36 /* BaseSBWebViewController.h */,
+				18F08CF71A42ACD000CDDF36 /* BaseSBWebViewController.m */,
+				18F08CF91A42ACD800CDDF36 /* BaseSBWebViewController.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		00B734B419B706FC00FCCD1F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				18A05E261A2DB7AC005EEA4A /* Category */,
+				18A8983619C6E58900005928 /* SDK */,
+				00D20DCC19B71C4B0090C230 /* Lib */,
+				00B734B519B706FC00FCCD1F /* main.m */,
+				18A05DFD1A2DB6F5005EEA4A /* Other */,
+				00B734B819B706FC00FCCD1F /* QGame-Info.plist */,
+				18A2A08219C281A400B38716 /* QGame-Prefix.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		00D20DCC19B71C4B0090C230 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				183341F61A908F4800D10AF3 /* HMBannerView */,
+				18DA4B771A80B99200ED7FB1 /* MBProgressHUD */,
+				1850C7511A3809F0009C2EE7 /* WebViewCa */,
+				180DE42B1A2C9298002BD943 /* Tabbar */,
+				18100D541A0C6367009A40FD /* TOWebViewController */,
+				18B040661A00E5EF001951C2 /* SegmentControl */,
+				18D5758B19BEDE9500FE2B75 /* GETPOST */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		180DE42B1A2C9298002BD943 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				180DE42C1A2C9298002BD943 /* Controller */,
+				180DE42F1A2C9298002BD943 /* View */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		180DE42C1A2C9298002BD943 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				180DE42D1A2C9298002BD943 /* BaseTabBarViewController.h */,
+				180DE42E1A2C9298002BD943 /* BaseTabBarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		180DE42F1A2C9298002BD943 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				180DE4301A2C9298002BD943 /* BaseBadgeButton.h */,
+				180DE4311A2C9298002BD943 /* BaseBadgeButton.m */,
+				180DE4321A2C9298002BD943 /* BaseTabBar.h */,
+				180DE4331A2C9298002BD943 /* BaseTabBar.m */,
+				180DE4341A2C9298002BD943 /* BaseTabBarButton.h */,
+				180DE4351A2C9298002BD943 /* BaseTabBarButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		180E437B19BF248A00E2DFBC /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				180E437D19BF24B300E2DFBC /* MRQClassTool.h */,
+				180E437E19BF24B300E2DFBC /* MRQClassTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		18100D541A0C6367009A40FD /* TOWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18100D551A0C6367009A40FD /* TOWebViewControllerLocalizable.strings */,
+				18100D5C1A0C6367009A40FD /* TOActivityChrome.h */,
+				18100D5D1A0C6367009A40FD /* TOActivityChrome.m */,
+				18100D5E1A0C6367009A40FD /* TOActivitySafari.h */,
+				18100D5F1A0C6367009A40FD /* TOActivitySafari.m */,
+				18100D601A0C6367009A40FD /* TOWebViewController.h */,
+				18100D611A0C6367009A40FD /* TOWebViewController.m */,
+				18100D621A0C6367009A40FD /* UIImage+TOWebViewControllerIcons.h */,
+				18100D631A0C6367009A40FD /* UIImage+TOWebViewControllerIcons.m */,
+			);
+			path = TOWebViewController;
+			sourceTree = "<group>";
+		};
+		1828F5C919C426F100412EB0 /* MRQGameDetails */ = {
+			isa = PBXGroup;
+			children = (
+				1828F5CA19C427E200412EB0 /* MRQMainGameDetailsModel.h */,
+				1828F5CB19C427E200412EB0 /* MRQMainGameDetailsModel.m */,
+				1828F5CD19C428F300412EB0 /* MRQMainGameDetailsParam.h */,
+				1828F5CE19C428F300412EB0 /* MRQMainGameDetailsParam.m */,
+			);
+			path = MRQGameDetails;
+			sourceTree = "<group>";
+		};
+		183341F61A908F4800D10AF3 /* HMBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				183341FF1A908F8F00D10AF3 /* MRQSDKBannerView.h */,
+				183342001A908F8F00D10AF3 /* MRQSDKBannerView.m */,
+				183341F91A908F4800D10AF3 /* Images */,
+			);
+			path = HMBannerView;
+			sourceTree = "<group>";
+		};
+		183341F91A908F4800D10AF3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				183341FA1A908F4800D10AF3 /* banner_close@2x.png */,
+				183341FB1A908F4800D10AF3 /* banner_shadowline@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		18348CBD19CC11EC004C8862 /* NewfeatureViewController */ = {
+			isa = PBXGroup;
+			children = (
+				187A85E31A202B4800551B51 /* NewfeatureViewController.h */,
+				187A85E41A202B4800551B51 /* NewfeatureViewController.m */,
+			);
+			path = NewfeatureViewController;
+			sourceTree = "<group>";
+		};
+		1848E3D319C48CC80052BA2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1848E3D419C48CE40052BA2C /* MRQCollectionParam.h */,
+				1848E3D519C48CE40052BA2C /* MRQCollectionParam.m */,
+				1848E3D719C48CF40052BA2C /* MRQCollectionGroup.h */,
+				1848E3D819C48CF40052BA2C /* MRQCollectionGroup.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1850C7511A3809F0009C2EE7 /* WebViewCa */ = {
+			isa = PBXGroup;
+			children = (
+				1850C7521A3809F0009C2EE7 /* RNCachingURLProtocol.h */,
+				1850C7531A3809F0009C2EE7 /* RNCachingURLProtocol.m */,
+			);
+			path = WebViewCa;
+			sourceTree = "<group>";
+		};
+		1888CEBE1A07143100CA1FEC /* Played */ = {
+			isa = PBXGroup;
+			children = (
+				1888CEC21A07143100CA1FEC /* View */,
+				1888CEBF1A07143100CA1FEC /* Controller */,
+			);
+			path = Played;
+			sourceTree = "<group>";
+		};
+		1888CEBF1A07143100CA1FEC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				188BFBAB1A08F63400F0FC8C /* MRQPlayedViewController.h */,
+				188BFBAC1A08F63400F0FC8C /* MRQPlayedViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1888CEC21A07143100CA1FEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				188BFBAE1A08FB0300F0FC8C /* MRQPlayedCell.h */,
+				188BFBAF1A08FB0300F0FC8C /* MRQPlayedCell.m */,
+				188BFBB01A08FB0300F0FC8C /* MRQPlayedCell.xib */,
+				188BFBB31A09001E00F0FC8C /* MRQPlayedCollectionHeadView.h */,
+				188BFBB41A09001E00F0FC8C /* MRQPlayedCollectionHeadView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1896DF9119C2EC0100CAD551 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1828F5C919C426F100412EB0 /* MRQGameDetails */,
+				1828F5B719C3D33500412EB0 /* MRQHomeGroup.h */,
+				1828F5B819C3D33500412EB0 /* MRQHomeGroup.m */,
+				1828F5BD19C3D3A600412EB0 /* MRQGameListModel.h */,
+				1828F5BE19C3D3A600412EB0 /* MRQGameListModel.m */,
+				18AACEE81A0939FA00B4C47D /* MRQGameImageIargeModel.h */,
+				18AACEE91A0939FA00B4C47D /* MRQGameImageIargeModel.m */,
+				18B1E7E61A11ACF1007665EC /* MRQHomeBaseModel.h */,
+				18B1E7E71A11ACF1007665EC /* MRQHomeBaseModel.m */,
+				1828F5C619C3F05900412EB0 /* MRQHomeHttpParam.h */,
+				1828F5C719C3F05900412EB0 /* MRQHomeHttpParam.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1896DF9219C2EC3000CAD551 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1828F5C319C3F02800412EB0 /* MRQMainHttpTool.h */,
+				1828F5C419C3F02800412EB0 /* MRQMainHttpTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		18A05DFD1A2DB6F5005EEA4A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				181938EF1A7CDCDC005DDF3B /* Web */,
+				18A05DFE1A2DB6F5005EEA4A /* BaseSDK.h */,
+				18A05DFF1A2DB6F5005EEA4A /* BaseSDK.m */,
+				18A05E001A2DB6F5005EEA4A /* Common.h */,
+				18A05E011A2DB6F5005EEA4A /* MRQAppDelegate.h */,
+				18A05E021A2DB6F5005EEA4A /* MRQAppDelegate.m */,
+				18A05E031A2DB6F5005EEA4A /* MRQGlobalSimpleInterest.h */,
+				18A05E041A2DB6F5005EEA4A /* MRQGlobalSimpleInterest.m */,
+				18A05E051A2DB6F5005EEA4A /* Singleton.h */,
+				181938F11A7CDD26005DDF3B /* MRQTestWebViewController.h */,
+				181938F21A7CDD26005DDF3B /* MRQTestWebViewController.m */,
+				18C4DD341A821D8900E95504 /* PushConfig.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		18A05E261A2DB7AC005EEA4A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18A05E271A2DB7AC005EEA4A /* NSString+MD5.h */,
+				18A05E281A2DB7AC005EEA4A /* NSString+MD5.m */,
+				18A05E291A2DB7AC005EEA4A /* UIBarButtonItem+BC.h */,
+				18A05E2A1A2DB7AC005EEA4A /* UIBarButtonItem+BC.m */,
+				18A05E2B1A2DB7AC005EEA4A /* UIImage+BC.h */,
+				18A05E2C1A2DB7AC005EEA4A /* UIImage+BC.m */,
+				18A05E321A2DB7AC005EEA4A /* UINavigationController+shouldAutorotate.h */,
+				18A05E331A2DB7AC005EEA4A /* UINavigationController+shouldAutorotate.m */,
+				18A05E341A2DB7AC005EEA4A /* UITabBarController+shouldAutorotate.h */,
+				18A05E351A2DB7AC005EEA4A /* UITabBarController+shouldAutorotate.m */,
+				18A05E361A2DB7AC005EEA4A /* UIView+BC.h */,
+				18A05E371A2DB7AC005EEA4A /* UIView+BC.m */,
+				18A05E381A2DB7AC005EEA4A /* UIViewController+shouldAutorotate.h */,
+				18A05E391A2DB7AC005EEA4A /* UIViewController+shouldAutorotate.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		18A8983619C6E58900005928 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				18D45DFD19EB6C1300F13CDB /* ShareSDK */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		18B040661A00E5EF001951C2 /* SegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				18B040671A00E606001951C2 /* BaseSegmentedControl.h */,
+				18B040681A00E606001951C2 /* BaseSegmentedControl.m */,
+			);
+			path = SegmentControl;
+			sourceTree = "<group>";
+		};
+		18D45DFD19EB6C1300F13CDB /* ShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18ECB2431A121AAC006A2584 /* Connection */,
+				18ECB2481A121AAC006A2584 /* Core */,
+				18ECB24F1A121AAC006A2584 /* Extend */,
+				18ECB25B1A121AAC006A2584 /* ShareSDK.framework */,
+				18ECB25C1A121AAC006A2584 /* UI */,
+			);
+			path = ShareSDK;
+			sourceTree = "<group>";
+		};
+		18D5758B19BEDE9500FE2B75 /* GETPOST */ = {
+			isa = PBXGroup;
+			children = (
+				189A8C341A15B5A00091A345 /* BaseHttpTool.h */,
+				189A8C351A15B5A00091A345 /* BaseHttpTool.m */,
+				18BDAA2919F4A924006ED950 /* YTKKeyValueStore.h */,
+				18BDAA2A19F4A924006ED950 /* YTKKeyValueStore.m */,
+			);
+			path = GETPOST;
+			sourceTree = "<group>";
+		};
+		18D575B819BEE64A00FE2B75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18D575B919BEE69900FE2B75 /* MRQClassGroup.h */,
+				18D575BA19BEE69900FE2B75 /* MRQClassGroup.m */,
+				18D575BC19BEE75100FE2B75 /* MRQClassData.h */,
+				18D575BD19BEE75100FE2B75 /* MRQClassData.m */,
+				180E438019BF250000E2DFBC /* MRQClassParam.h */,
+				180E438119BF250000E2DFBC /* MRQClassParam.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18DA4B771A80B99200ED7FB1 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				18DA4B781A80B99200ED7FB1 /* MBProgressHUD+Add.h */,
+				18DA4B791A80B99200ED7FB1 /* MBProgressHUD+Add.m */,
+				18DA4B7A1A80B99200ED7FB1 /* MBProgressHUD.bundle */,
+				18DA4B7B1A80B99200ED7FB1 /* MBProgressHUD.h */,
+				18DA4B7C1A80B99200ED7FB1 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		18E8714A1A047B6200A6B8D3 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				187A85E61A202B8E00551B51 /* MRQSettingViewController.h */,
+				187A85E71A202B8E00551B51 /* MRQSettingViewController.m */,
+				18EA343B1A2C0B0200025FCF /* MRQSettingViewController.storyboard */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		18ECB2431A121AAC006A2584 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				18ECB2441A121AAC006A2584 /* QQConnection.framework */,
+				18ECB2451A121AAC006A2584 /* QZoneConnection.framework */,
+				18ECB2461A121AAC006A2584 /* SinaWeiboConnection.framework */,
+				18ECB2471A121AAC006A2584 /* WeChatConnection.framework */,
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		18ECB2481A121AAC006A2584 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				18ECB2491A121AAC006A2584 /* AGCommon.framework */,
+				18ECB24A1A121AAC006A2584 /* ShareSDKLocalizable.strings */,
+				18ECB24C1A121AAC006A2584 /* Resource.bundle */,
+				18ECB24D1A121AAC006A2584 /* ShareSDKCoreService.framework */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		18ECB24F1A121AAC006A2584 /* Extend */ = {
+			isa = PBXGroup;
+			children = (
+				18ECB2501A121AAC006A2584 /* QQConnectSDK */,
+				18ECB2531A121AAC006A2584 /* SinaWeiboSDK */,
+				18ECB2571A121AAC006A2584 /* WeChatSDK */,
+			);
+			path = Extend;
+			sourceTree = "<group>";
+		};
+		18ECB2501A121AAC006A2584 /* QQConnectSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18ECB2511A121AAC006A2584 /* TencentOpenAPI.framework */,
+				18ECB2521A121AAC006A2584 /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			path = QQConnectSDK;
+			sourceTree = "<group>";
+		};
+		18ECB2531A121AAC006A2584 /* SinaWeiboSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18ECB2541A121AAC006A2584 /* libSinaWeiboSDK.a */,
+				18ECB2551A121AAC006A2584 /* WeiboSDK.bundle */,
+				18ECB2561A121AAC006A2584 /* WeiboSDK.h */,
+			);
+			path = SinaWeiboSDK;
+			sourceTree = "<group>";
+		};
+		18ECB2571A121AAC006A2584 /* WeChatSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18ECB2581A121AAC006A2584 /* libWeChatSDK.a */,
+				18ECB2591A121AAC006A2584 /* WXApi.h */,
+				18ECB25A1A121AAC006A2584 /* WXApiObject.h */,
+			);
+			path = WeChatSDK;
+			sourceTree = "<group>";
+		};
+		18ECB25C1A121AAC006A2584 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18ECB25D1A121AAC006A2584 /* ShareSDKFlatShareViewUI.bundle */,
+				18ECB25E1A121AAC006A2584 /* ShareSDKFlatShareViewUI.framework */,
+				18ECB25F1A121AAC006A2584 /* ShareSDKShareActionSheet.framework */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7D144E5D35ADB35F70F337F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD444280E5344F37C7D0F448 /* Pods.debug.xcconfig */,
+				49F908368A069CF7FE93149C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00B7347419B7063900FCCD1F /* QGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B734A119B7063900FCCD1F /* Build configuration list for PBXNativeTarget "QGame" */;
+			buildPhases = (
+				9360533869D6C963C2276FB4 /* Check Pods Manifest.lock */,
+				00B7347119B7063900FCCD1F /* Sources */,
+				00B7347219B7063900FCCD1F /* Frameworks */,
+				00B7347319B7063900FCCD1F /* Resources */,
+				B4A44B85EC1E64975BC3D1F3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QGame;
+			productName = QGame;
+			productReference = 00B7347519B7063900FCCD1F /* QGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00B7348F19B7063900FCCD1F /* QGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B734A419B7063900FCCD1F /* Build configuration list for PBXNativeTarget "QGameTests" */;
+			buildPhases = (
+				00B7348C19B7063900FCCD1F /* Sources */,
+				00B7348D19B7063900FCCD1F /* Frameworks */,
+				00B7348E19B7063900FCCD1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00B7349619B7063900FCCD1F /* PBXTargetDependency */,
+			);
+			name = QGameTests;
+			productName = QGameTests;
+			productReference = 00B7349019B7063900FCCD1F /* QGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00B7346D19B7063900FCCD1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MRQ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MeiRiQ;
+				TargetAttributes = {
+					00B7347419B7063900FCCD1F = {
+						DevelopmentTeam = FE7EF3A6Q7;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					00B7348F19B7063900FCCD1F = {
+						DevelopmentTeam = AAMYS83785;
+						TestTargetID = 00B7347419B7063900FCCD1F;
+					};
+				};
+			};
+			buildConfigurationList = 00B7347019B7063900FCCD1F /* Build configuration list for PBXProject "QGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				de,
+				es,
+				ja,
+				ko,
+				pl,
+				"zh-Hant",
+			);
+			mainGroup = 00B7346C19B7063900FCCD1F;
+			productRefGroup = 00B7347619B7063900FCCD1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00B7347419B7063900FCCD1F /* QGame */,
+				00B7348F19B7063900FCCD1F /* QGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00B7347319B7063900FCCD1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ECB2691A121AAC006A2584 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				181938F01A7CDCDC005DDF3B /* Web in Resources */,
+				18100D661A0C6367009A40FD /* TOWebViewControllerLocalizable.strings in Resources */,
+				18449E1A19C8231B00F5F26A /* MRQFLDescHeandView.xib in Resources */,
+				1821CE0E1A440F7B00F2996C /* MRQHomeHeaderInSectionView.xib in Resources */,
+				18EA343C1A2C0B0200025FCF /* MRQSettingViewController.storyboard in Resources */,
+				1821CE0C1A43C7C400F2996C /* MRQMainGameDetailsController.storyboard in Resources */,
+				18ECB2651A121AAC006A2584 /* ShareSDKLocalizable.strings in Resources */,
+				18ECB2661A121AAC006A2584 /* Resource.bundle in Resources */,
+				18449E1F19C826D600F5F26A /* MRQFLDescFootView.xib in Resources */,
+				185B18401A2EE172003542DD /* MRQFLDescNewsHeadView.xib in Resources */,
+				18F08CFA1A42ACD800CDDF36 /* BaseSBWebViewController.storyboard in Resources */,
+				183341FD1A908F4800D10AF3 /* banner_close@2x.png in Resources */,
+				1896DF9019C2DD5300CAD551 /* MRQLeftHeaderView.xib in Resources */,
+				1821CE101A44127E00F2996C /* MRQAboutViewController.storyboard in Resources */,
+				00B7348319B7063900FCCD1F /* InfoPlist.strings in Resources */,
+				183341FE1A908F4800D10AF3 /* banner_shadowline@2x.png in Resources */,
+				18ECB26E1A121AAC006A2584 /* ShareSDKFlatShareViewUI.bundle in Resources */,
+				18C4DD351A821D8900E95504 /* PushConfig.plist in Resources */,
+				181D1AC619C12C4100FC516D /* MRQClassCollectionCell.xib in Resources */,
+				1802BFB61A495FD20061BA66 /* MRQFLTableViewController.storyboard in Resources */,
+				18DA4B7E1A80B99200ED7FB1 /* MBProgressHUD.bundle in Resources */,
+				18ECB26B1A121AAC006A2584 /* WeiboSDK.bundle in Resources */,
+				00B7348B19B7063900FCCD1F /* Images.xcassets in Resources */,
+				1821CE0A1A43C38500F2996C /* MRQHomeViewController.storyboard in Resources */,
+				188BFBB21A08FB0300F0FC8C /* MRQPlayedCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B7348E19B7063900FCCD1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B7349C19B7063900FCCD1F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9360533869D6C963C2276FB4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4A44B85EC1E64975BC3D1F3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00B7347119B7063900FCCD1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188BFBAD1A08F63400F0FC8C /* MRQPlayedViewController.m in Sources */,
+				00B734BA19B706FC00FCCD1F /* main.m in Sources */,
+				1828F5CC19C427E200412EB0 /* MRQMainGameDetailsModel.m in Sources */,
+				18100D681A0C6367009A40FD /* TOActivitySafari.m in Sources */,
+				1828F5C819C3F05900412EB0 /* MRQHomeHttpParam.m in Sources */,
+				18449E1519C8222200F5F26A /* MRQFLDescViewController.m in Sources */,
+				18100D691A0C6367009A40FD /* TOWebViewController.m in Sources */,
+				18A8983019C6CFD000005928 /* MRQAboutViewController.m in Sources */,
+				18A05E081A2DB6F5005EEA4A /* MRQGlobalSimpleInterest.m in Sources */,
+				181938F31A7CDD26005DDF3B /* MRQTestWebViewController.m in Sources */,
+				18F08CF81A42ACD000CDDF36 /* BaseSBWebViewController.m in Sources */,
+				004025C919B709E600D57F43 /* MRQHomeViewController.m in Sources */,
+				1848E3D919C48CF40052BA2C /* MRQCollectionGroup.m in Sources */,
+				18A05E421A2DB7AC005EEA4A /* UIViewController+shouldAutorotate.m in Sources */,
+				18D575BE19BEE75100FE2B75 /* MRQClassData.m in Sources */,
+				18077A611A2EA49A002687E1 /* MRQHomeHeaderInSectionView.m in Sources */,
+				18A05E3C1A2DB7AC005EEA4A /* UIImage+BC.m in Sources */,
+				00D20DCB19B70DA80090C230 /* MRQClassificationViewController.m in Sources */,
+				18A05E061A2DB6F5005EEA4A /* BaseSDK.m in Sources */,
+				180DE4371A2C9298002BD943 /* BaseBadgeButton.m in Sources */,
+				18AACEEA1A0939FA00B4C47D /* MRQGameImageIargeModel.m in Sources */,
+				18FB93E219C28A5C00ABDB72 /* MRQMainGameDetailsController.m in Sources */,
+				18A05E3F1A2DB7AC005EEA4A /* UINavigationController+shouldAutorotate.m in Sources */,
+				1828F5BF19C3D3A600412EB0 /* MRQGameListModel.m in Sources */,
+				188BFBB11A08FB0300F0FC8C /* MRQPlayedCell.m in Sources */,
+				18B040691A00E606001951C2 /* BaseSegmentedControl.m in Sources */,
+				181D1AC919C1302100FC516D /* MRQCollectionHeadView.m in Sources */,
+				18DA4B7F1A80B99200ED7FB1 /* MBProgressHUD.m in Sources */,
+				185B183E1A2EE16A003542DD /* MRQFLDescNewsHeadView.m in Sources */,
+				18AD25241A31A2EE00BC796D /* MRQFLDescTableViewCell.m in Sources */,
+				18A05E411A2DB7AC005EEA4A /* UIView+BC.m in Sources */,
+				18A05E3A1A2DB7AC005EEA4A /* NSString+MD5.m in Sources */,
+				18449E1D19C826CD00F5F26A /* MRQFLDescFootView.m in Sources */,
+				18562E4B19C69A120071FACC /* MRQFLTableViewCell.m in Sources */,
+				18DA039C19C2B40900E18096 /* MRQMainFooterView.m in Sources */,
+				1828F5C519C3F02800412EB0 /* MRQMainHttpTool.m in Sources */,
+				1896DF8E19C2DD4900CAD551 /* MRQLeftHeaderView.m in Sources */,
+				1828F5B919C3D33500412EB0 /* MRQHomeGroup.m in Sources */,
+				187A85E81A202B8E00551B51 /* MRQSettingViewController.m in Sources */,
+				18A05E401A2DB7AC005EEA4A /* UITabBarController+shouldAutorotate.m in Sources */,
+				18A05E071A2DB6F5005EEA4A /* MRQAppDelegate.m in Sources */,
+				188BFBB51A09001E00F0FC8C /* MRQPlayedCollectionHeadView.m in Sources */,
+				180E438219BF250000E2DFBC /* MRQClassParam.m in Sources */,
+				18AD25211A31A07D00BC796D /* MRQHomeDescTableViewCell.m in Sources */,
+				180E437719BF20AF00E2DFBC /* MRQClassCollectionCell.m in Sources */,
+				180DE4361A2C9298002BD943 /* BaseTabBarViewController.m in Sources */,
+				18BDCE7F1A274912001B2F0F /* BaseMainWebViewController.m in Sources */,
+				18449E1819C8231300F5F26A /* MRQFLDescHeandView.m in Sources */,
+				180DE4391A2C9298002BD943 /* BaseTabBarButton.m in Sources */,
+				18100D671A0C6367009A40FD /* TOActivityChrome.m in Sources */,
+				180E437F19BF24B300E2DFBC /* MRQClassTool.m in Sources */,
+				18640D901A22CB9200DF9E53 /* AGAuthViewController.m in Sources */,
+				00B0661819B7FF8200934240 /* MRQHomeTableViewCell.m in Sources */,
+				18D575BB19BEE69900FE2B75 /* MRQClassGroup.m in Sources */,
+				1830C02F1A2082050050676B /* SUNLeftMenuViewController.m in Sources */,
+				18B1E7E81A11ACF1007665EC /* MRQHomeBaseModel.m in Sources */,
+				18D15DC01A202C450093CA37 /* BaseNavigationController.m in Sources */,
+				18100D6A1A0C6367009A40FD /* UIImage+TOWebViewControllerIcons.m in Sources */,
+				1828F5CF19C428F300412EB0 /* MRQMainGameDetailsParam.m in Sources */,
+				18BBE2C019CAD16D007AEAAB /* MRQFLTableViewController.m in Sources */,
+				187A85E51A202B4800551B51 /* NewfeatureViewController.m in Sources */,
+				183342011A908F8F00D10AF3 /* MRQSDKBannerView.m in Sources */,
+				18A05E3B1A2DB7AC005EEA4A /* UIBarButtonItem+BC.m in Sources */,
+				180DE4381A2C9298002BD943 /* BaseTabBar.m in Sources */,
+				189A8C361A15B5A00091A345 /* BaseHttpTool.m in Sources */,
+				18BDAA2B19F4A924006ED950 /* YTKKeyValueStore.m in Sources */,
+				1848E3D619C48CE40052BA2C /* MRQCollectionParam.m in Sources */,
+				18640D931A22CBBA00DF9E53 /* AGShareCell.m in Sources */,
+				18DA4B7D1A80B99200ED7FB1 /* MBProgressHUD+Add.m in Sources */,
+				1850C7541A3809F0009C2EE7 /* RNCachingURLProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00B7348C19B7063900FCCD1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B7349E19B7063900FCCD1F /* QGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00B7349619B7063900FCCD1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00B7347419B7063900FCCD1F /* QGame */;
+			targetProxy = 00B7349519B7063900FCCD1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00B7348119B7063900FCCD1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00B7348219B7063900FCCD1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00B7349A19B7063900FCCD1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00B7349B19B7063900FCCD1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18100D551A0C6367009A40FD /* TOWebViewControllerLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18100D561A0C6367009A40FD /* de */,
+				18100D571A0C6367009A40FD /* en */,
+				18100D581A0C6367009A40FD /* es */,
+				18100D591A0C6367009A40FD /* ja */,
+				18100D5A1A0C6367009A40FD /* ko */,
+				18100D5B1A0C6367009A40FD /* pl */,
+				18100D641A0C6367009A40FD /* zh-Hans */,
+				18100D651A0C6367009A40FD /* zh-Hant */,
+			);
+			name = TOWebViewControllerLocalizable.strings;
+			sourceTree = "<group>";
+		};
+		18ECB24A1A121AAC006A2584 /* ShareSDKLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18ECB24B1A121AAC006A2584 /* en */,
+				18ECB24E1A121AAC006A2584 /* zh-Hans */,
+			);
+			name = ShareSDKLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00B7349F19B7063900FCCD1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yu zeng (TCNCWXTJW8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yu zeng (TCNCWXTJW8)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "93bd49b7-593c-45e4-934e-edae6725ddfa";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00B734A019B7063900FCCD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "93bd49b7-593c-45e4-934e-edae6725ddfa";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00B734A219B7063900FCCD1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD444280E5344F37C7D0F448 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QGame/Classes/Other/SDK/ShareSDK/Connection",
+					"$(PROJECT_DIR)/QGame/Classes/Other/SDK/ShareSDK/Core",
+					"$(PROJECT_DIR)/QGame/Classes/Other/SDK/ShareSDK/Extend/QQConnectSDK",
+					"$(PROJECT_DIR)/QGame/Classes/Other/SDK/ShareSDK",
+					"$(PROJECT_DIR)/QGame/Classes/Other/SDK/ShareSDK/UI",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QGame/Classes/Other/QGame-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+				);
+				INFOPLIST_FILE = "QGame/Classes/Other/QGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QGame/Classes/Other/SDK/ShareSDK/Extend/SinaWeiboSDK",
+					"$(PROJECT_DIR)/QGame/Classes/Other/SDK/ShareSDK/Extend/WeChatSDK",
+					"$(PROJECT_DIR)/Pods/JPushSDK",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "11d293d5-d026-4a86-b40d-ccafa2f13e7e";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00B734A319B7063900FCCD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F908368A069CF7FE93149C /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: lin baican (FE7EF3A6Q7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: lin baican (FE7EF3A6Q7)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QGame/Classes/Other/SDK/ShareSDK/Connection",
+					"$(PROJECT_DIR)/QGame/Classes/Other/SDK/ShareSDK/Core",
+					"$(PROJECT_DIR)/QGame/Classes/Other/SDK/ShareSDK/Extend/QQConnectSDK",
+					"$(PROJECT_DIR)/QGame/Classes/Other/SDK/ShareSDK",
+					"$(PROJECT_DIR)/QGame/Classes/Other/SDK/ShareSDK/UI",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QGame/Classes/Other/QGame-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+				);
+				INFOPLIST_FILE = "QGame/Classes/Other/QGame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QGame/Classes/Other/SDK/ShareSDK/Extend/SinaWeiboSDK",
+					"$(PROJECT_DIR)/QGame/Classes/Other/SDK/ShareSDK/Extend/WeChatSDK",
+					"$(PROJECT_DIR)/Pods/JPushSDK",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "11d293d5-d026-4a86-b40d-ccafa2f13e7e";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		00B734A519B7063900FCCD1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7,
+					armv7s,
+				);
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QGame.app/QGame";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QGameTests/QGameTests-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		00B734A619B7063900FCCD1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7,
+					armv7s,
+				);
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QGame.app/QGame";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "QGameTests/QGameTests-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00B7347019B7063900FCCD1F /* Build configuration list for PBXProject "QGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B7349F19B7063900FCCD1F /* Debug */,
+				00B734A019B7063900FCCD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B734A119B7063900FCCD1F /* Build configuration list for PBXNativeTarget "QGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B734A219B7063900FCCD1F /* Debug */,
+				00B734A319B7063900FCCD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B734A419B7063900FCCD1F /* Build configuration list for PBXNativeTarget "QGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B734A519B7063900FCCD1F /* Debug */,
+				00B734A619B7063900FCCD1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00B7346D19B7063900FCCD1F /* Project object */;
+}
